@@ -7,21 +7,33 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="container bg-yellow-300 mx-auto">
-      <nav class="bg-gray-800 flex justify-between items-center">
+    <div class="mx-auto">
+      <nav
+        class="flex justify-between lg:justify-start items-center bg-gray-800"
+      >
         <!-- Logo -->
-        <div class="logo p-2">
-          <img src="./assets/img/logo.png" width="100%" alt="" />
+        <div class="logo p-2 w-1/6">
+          <img src="./assets/img/logo.png" width="100" alt="" />
         </div>
 
         <!-- Links for the navs-->
-        <div class="links">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Play Together</a></li>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Bowser Fury</a></li>
-            <li><a href="#">Buy Now</a></li>
+        <div class="links lg:block hidden w-1/6 md:w-4/6">
+          <ul class="menu flex items-center justify-center gap-5">
+            <li><a href="#" class="text-white block p-5 font-bold">Home</a></li>
+            <li>
+              <a href="#" class="text-white block p-5 font-bold"
+                >Play Together</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-white block p-5 font-bold">Explore</a>
+            </li>
+            <li>
+              <a href="#" class="text-white block p-5 font-bold">Bowser Fury</a>
+            </li>
+            <li>
+              <a href="#" class="text-white block p-5 font-bold">Buy Now</a>
+            </li>
           </ul>
         </div>
       </nav>

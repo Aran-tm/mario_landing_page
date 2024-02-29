@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Creo componentes con Tailwind CSS. Me sirven para aplicar como clases a mis elementos */
 .link {
-    @apply text-white block p-5 font-bold hover:text-yellow-500;
+    @apply text-white block p-5 font-bold hover: text-yellow-500;
 }

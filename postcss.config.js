@@ -1,6 +1,7 @@
 module.exports = {
   plugins: {
-    //tailwindcss: {},
+        //tailwindcss: {},
+      // permite compilar el css, carga solo los estilos que se utilizan
     '@tailwindcss/jit': {},
     autoprefixer: {},
   },
